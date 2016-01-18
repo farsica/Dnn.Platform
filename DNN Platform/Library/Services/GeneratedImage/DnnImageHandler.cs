@@ -105,7 +105,7 @@ namespace DotNetNuke.Services.GeneratedImage
             ImageCompression = 95;
             DiskImageStore.PurgeInterval = new TimeSpan(0, 3, 0);
             IPCountPurgeInterval = new TimeSpan(0, 5, 0);
-            IPCountMaxCount = 50;
+            IPCountMaxCount = 500;
             ClientCacheExpiration = new TimeSpan(0, 10, 0);
             AllowedDomains = new[] { string.Empty };
 
